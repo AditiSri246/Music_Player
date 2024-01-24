@@ -1,6 +1,6 @@
 .main{
     flex-direction: column;
-    height: 90%;
+    height: 80%;
     align-items: center;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
     position: absolute;
     bottom: 0;
     left: auto;
-    width: 50%;
+    width: 65%;
     height: 20px;
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@
 
 .right .show_song_no{
     position: relative;
-    top: 38px;
+    top: 35px;
     left: 0px;
     height: 10px;
     width: 15px;
@@ -50,7 +50,7 @@
 }
 
 .right .show_song_no p{
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .right #title{
@@ -62,7 +62,7 @@
 .right #artist{
     position: absolute;
     top: 55px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .right .middle{
@@ -76,6 +76,10 @@
 
 .right .duration{
     bottom: 36%;
+}
+
+.duration #duration_slider{
+    width: 50%;
 }
 
 .right #auto{
