@@ -1,0 +1,80 @@
+.main{
+    flex-direction: column;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main #logo{
+    position: absolute;
+    top: 20px;
+    width: 88%;
+    text-align: center;
+}
+
+.main .left{
+    height: 90%;
+    width: 100%;
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.main .left img{
+    height: 200px;
+    width: 200px;
+    /* margin-left: 10px; */
+}
+
+.left .volume{
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    width: 50%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.main .right{
+    height: 100%;
+    width: 100%;
+}
+
+.right .show_song_no{
+    top: 240px;
+}
+
+.right #title{
+    position: absolute;
+    font-size: 25px;
+    top: 20px;
+}
+
+.right #artist{
+    position: absolute;
+    top: 55px;
+    font-size: 15px;
+}
+
+.right .middle{
+    margin-top: 45px;
+}
+
+.right .middle button{
+    height: 50px;
+    width: 50px;
+}
+
+.right .duration{
+    bottom: 36%;
+}
+
+.right #auto{
+    font-size: 15px;
+    margin-top: 55px;
+}
